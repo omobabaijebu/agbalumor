@@ -1,0 +1,87 @@
+/* Add a black background color to the top navigation */
+.topnav{
+    background-color:antiquewhite;
+    overflow: hidden;
+}
+/* syle the links inside the navigation bar*/
+.topnav a {
+    float: left;
+    color:red;
+    text-align: right;
+    padding: 5px 50px;
+    text-decoration: none;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+/* change the color of links on hover */
+.topnav a:hover {
+    background-color: black;
+    color: brown;
+}
+/* Add a color to the active/current link*/
+.topnav a.active {
+    background-color: black;
+    color: white;
+    text-decoration: solid;
+    font-size: medium;
+    font-style: normal;
+    font-weight: 800;
+}
+/* Add a colorr to the header texr*/
+.header-text {
+    padding: 10px;
+}
+.header-text h1 span {
+    color: aqua;
+    cursor: pointer;
+    color: red;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.header-btn {
+    background-color:blue;
+    color: black;
+    padding: 10px 10px;
+    
+}
+img {
+    border-radius: 50%;
+    margin-left: 70%;
+    margin-right: auto;
+    margin-top: -20%;
+}
+
+p{
+    background-color:white;
+    width: 600px;
+    height: 80px;
+    border-radius: 3px;
+    font-style: italic;
+    font-weight: 300;
+    
+}
+
+.agbalumo1{
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 50%;
+    margin-left: 5%;
+}
+.agbalumo2{
+    border-radius: 50%;
+    margin-left: 30%;
+    margin-right: auto;
+}
+.agbalumo3{
+    border-radius: 50%;
+    margin-left: 55%;
+    margin-right: auto;
+}
+.agbalumo4{
+    border-radius: 50%;
+    margin-left: 80%;
+    margin-right: auto;
+}
+
